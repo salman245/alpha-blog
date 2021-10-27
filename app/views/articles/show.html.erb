@@ -4,7 +4,7 @@
        <div class ="col-8 mt-4">
             <div class="card text-center">
                <div class="card-header">
-                By Salman Tahir
+                By <%= @article.user.username if @article.user %>
                </div>
 
                  <div class="card-body">
